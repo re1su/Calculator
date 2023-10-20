@@ -62,7 +62,7 @@ class Calculator {
         result = prevValue - currValue 
         break
       case '÷':
-        result = currValue / prevValue
+        result = prevValue / currValue
         break
       case '*':
         result = currValue * prevValue
