@@ -25,10 +25,15 @@ button {
   border: 1px solid #b1b1b1;
   color: #000;
   background-color: #e5f8f8;
+  transition: all .08s ease;
 }
 
 button:hover {
   cursor: pointer;
+}
+
+button:active {
+  opacity: .8;
 }
 
 .calculator__output {
@@ -39,7 +44,8 @@ button:hover {
   align-items: flex-end;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  padding: 0px 8px;
+  padding: 10px 10px;
+  word-break: break-all;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
 }
